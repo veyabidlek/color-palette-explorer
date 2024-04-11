@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/favicon.png" />
+
+    <title>Color Palette Explorer</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Color Palette Explorer</h1>
+      <section class="palette-display">
+        <!-- place for color palettes -->
+      </section>
+      <section class="create-palette">
+        <h2>Create a new palette</h2>
+        <div class="color-picker-container">
+          <!-- place for color pickers -->
+        </div>
+        <div class="hsl-controls">
+          <label for="hue">Hue: <span id="hue-value">180</span></label>
+          <input
+            type="range"
+            id="hue"
+            name="hue"
+            min="0"
+            max="360"
+            value="180"
+          />
+          <label for="saturation"
+            >Saturation: <span id="saturation-value">100%</span></label
+          >
+          <input
+            type="range"
+            id="saturation"
+            name="saturation"
+            min="0"
+            max="100"
+            value="100"
+          />
+          <label for="lightness"
+            >Lightness: <span id="lightness-value">50%</span></label
+          >
+          <input
+            type="range"
+            id="lightness"
+            name="lightness"
+            min="0"
+            max="100"
+            value="50"
+          />
+        </div>
+        <div class="palette-name-input">
+          <label for="palette-name">Palette Name:</label>
+          <input
+            type="text"
+            id="palette-name"
+            class="palette-name"
+            placeholder="nFactorial Palette"
+          />
+        </div>
+        <button class="btn-add-color">Add Color</button>
+        <button class="btn-save-palette">Save Palette</button>
+        <button class="btn-reset">Reset</button>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

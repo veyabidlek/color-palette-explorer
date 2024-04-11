@@ -1,0 +1,99 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("images/background-img.jpg");
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #cbdd00dc;
+}
+
+.container h2 {
+  text-transform: uppercase;
+  color: rgb(210, 207, 207);
+}
+.color-block {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.palette-name-input {
+  margin-bottom: 10px;
+}
+
+.btn-add-color {
+  border-radius: 8px;
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #ff0037dc;
+}
+
+.btn-save-palette {
+  border-radius: 8px;
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #400ceddc;
+}
+
+.btn-reset {
+  border-radius: 8px;
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #9cafbedc;
+}
+
+.palette-display {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.palette {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.color-block {
+  flex-grow: 1;
+  width: 100px;
+  height: 100px;
+}
+
+.hsl-controls,
+.palette-name {
+  margin-top: 15px;
+}
+
+.hsl-controls input[type="range"] {
+  width: 100%;
+}
+
+.palette-name {
+  border-radius: 10px;
+  width: calc(100% - 20px);
+  padding: 5px;
+  margin-top: 5px;
+}
+.palette-name-container span {
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: thin;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+}
