@@ -23,7 +23,7 @@ a web application that allows users to create, save, and display various color p
 3. **Open the project**
 
    You can open the project files using your preferred text editor or IDE.
-   ```
+   
 
 4. **Launch the application**
 
