@@ -1,4 +1,3 @@
-<img width="1440" alt="app-screenshot" src="https://github.com/veyabidlek/color-palette-explorer/assets/110376664/5ce712dd-a337-428a-8b4a-618e29761c52">
 # Color Palette Creator
 a web application that allows users to create, save, and display various color palettes. Utilizing the HSL (Hue, Saturation, Lightness) color model, users can generate colors and organize them into palettes. These palettes can be saved for future use and displayed on the application's interface.
 
