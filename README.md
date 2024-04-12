@@ -16,7 +16,7 @@ a web application that allows users to create, save, and display various color p
    Change into the project directory:
 
    ```bash
-   cd <your-repository-name>
+   cd <color-palette-explorer>
    ```
 
 3. **Open the project**
