@@ -1,4 +1,4 @@
-# Color Palette Creator
+# Color Palette Explorer
 a web application that allows users to create, save, and display various color palettes. Utilizing the HSL (Hue, Saturation, Lightness) color model, users can generate colors and organize them into palettes. These palettes can be saved for future use and displayed on the application's interface.
 
 ## Setup Instructions
@@ -16,7 +16,7 @@ a web application that allows users to create, save, and display various color p
    Change into the project directory:
 
    ```bash
-   cd <color-palette-explorer>
+   cd color-palette-explorer
    ```
 
 3. **Open the project**
